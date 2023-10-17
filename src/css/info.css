@@ -55,14 +55,17 @@
 .info1 {
     width: 400px;
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 .info2 {
     width: 500px;    
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 .info3 {
     width: 400px;
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 .info4 {
     width: 200px;
