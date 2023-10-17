@@ -126,7 +126,7 @@
         justify-content: center;
     }
     .members-uch {
-        min-height: 220vh;
+        margin-top: 500px;
     }
 }
 @media (max-width:425px) {
