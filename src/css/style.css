@@ -1,0 +1,21 @@
+@import url(./header.css);
+@import url(./normalize.css);
+@import url(./members.css);
+@import url(./facts.css);
+@import url(./primer.css);
+@import url(./calc.css);
+@import url(./plus-minus.css);
+@import url(./sravnenie.css);
+@import url(./info.css);
+@import url(./itog.css);
+
+.cont {
+    padding: 0 50px;
+}
+
+* {
+    box-sizing: border-box;
+    z-index: 1;
+    text-decoration:none;
+    cursor: default;
+}

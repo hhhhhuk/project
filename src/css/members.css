@@ -1,0 +1,155 @@
+.members-uch {
+    width: 100%;
+    height: 100%;
+    background: #007a5f; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+}
+
+@keyframes color {
+    0%   { background: #008a8a; }
+    20%  { background: #0a036e; }
+    40%  { background: #9303be; }
+    60%  { background: #00795e; }
+    80%  { background: #02aab6; }
+    100% { background: #002352; }
+  }
+
+.members {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all 1.5s;
+    -o-transition: all 1.5s;
+    transition: all 1.5s;
+    opacity: 0;
+
+}
+.Dima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+}
+.Dima__title {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.Dima__img {
+    width: 100%;
+    border: 1px solid aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 50px;
+}
+.Dima__text {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.Timur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+}
+.Timur__title {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.Timur__img {
+    width: 100%;
+    border: 1px solid aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 50px;
+}
+.Timur__text {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.Vitalik {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
+    align-items: center;
+}
+.Vitalik__title {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.Vitalik__img {
+    width: 40%;
+    border: 1px solid aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 50px;
+}
+.Vitalik__text {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:1024px) {
+    .members {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Dima__img {
+        width: 40%;
+    }
+
+    .Timur__img {
+        width: 30%;
+    }
+}
+@media (max-width:425px) {
+    .Dima__img {
+        width: 100%;
+    }
+
+    .Timur__img {
+        width: 100%;
+    }
+    
+    .Vitalik__img {
+        width: 60%;
+    }
+}
+
+.members.animation {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.members:nth-of-type(2).animation {
+    -webkit-transition-delay: 0.25s;
+    -o-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+}
+
+.members:nth-of-type(3).animation {
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5;
+    transition-delay: 0.5s;
+}

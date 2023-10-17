@@ -1,0 +1,58 @@
+.plus-minus {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.plus-minus__content {
+    max-width: 1110px;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    opacity: .7;
+    border: 10px solid transparent;
+    border-image: linear-gradient(#0B0E7F , #0B95DD);
+    -moz-border-image: -moz-linear-gradient(#0B0E7F , #0B95DD);
+    -webkit-border-image: -webkit-linear-gradient(#0B0E7F , #0B95DD);
+    border-image-slice: 1;
+}
+td {
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #282828;
+}
+
+tr:last-child {
+    border-bottom: 0;
+}
+
+.plus-minus__title {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+.plus-minus__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    border-right: 1px solid #282828;
+}

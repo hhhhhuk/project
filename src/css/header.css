@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    background: linear-gradient(-95deg, #140944, rgb(56, 49, 151), #202fad, #0a2188);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+.header__text {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+.header__link {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(270deg, #ffffff, #ffffff, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: cell;
+    transition: 0.5s ease-out;
+}
+
+.header__link:hover {
+    transform: scale(1.4);
+}
+
+@media (max-width:425px) {
+    .header__text {
+        font-size: 15px;
+    }
+
+    .header__link {
+        font-size: 20px;
+    }
+}

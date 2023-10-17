@@ -1,0 +1,111 @@
+.info {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.info__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    flex-grow: 1;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-family: Ubuntu;
+    padding-left: 30px;
+    background: linear-gradient(270deg, #ffffff 0%, #dff7ff 66.67%, #bdf8fd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+    z-index: 4;
+}
+.info__text {
+    float: left;
+    position: relative;
+    z-index: 4;
+    font-weight: 700;
+    height: 100%;
+    width: 60%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Ubuntu;
+    padding-left: 30px;
+    background: linear-gradient(270deg, #ffffff 0%, #dff7ff 66.67%, #bdf8fd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: relative;
+}
+.text__2 {
+    background: linear-gradient(270deg, #ffffff 0%, #dff7ff 66.67%, #bdf8fd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.info__img {
+    float: right;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+.info1 {
+    width: 400px;
+    border-radius: 50px;
+}
+.info2 {
+    width: 500px;    
+    border-radius: 50px;
+}
+.info3 {
+    width: 400px;
+    border-radius: 50px;
+}
+.info4 {
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+@media (max-width:1024px) {
+    .info__text {
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+    .info__text {
+        float: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .info__img {
+        float: none;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:425px) {
+    .info1 {
+        width: 200px;
+    }
+    .info2 {
+        width: 250px;
+    }
+    .info3 {
+        width: 200px;
+    }
+}
+@media (max-width:375px) {
+    .info__title {
+        font-size: 25px;
+    }
+    .info__text {
+        font-size: 20px;
+        padding-left: none;
+    }
+}

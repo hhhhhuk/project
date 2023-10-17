@@ -1,0 +1,51 @@
+.sravnenie {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.sravnenie__content {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    z-index: 12;
+    background-color: white;
+    padding: 50px 50px;
+    opacity: .6;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.sravnenie__title {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.java__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.C__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.py__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+@media (max-width:425px) {
+    .sravnenie__content {
+        width: 100%;
+    }
+}
