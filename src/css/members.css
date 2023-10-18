@@ -125,21 +125,23 @@
         flex-direction: column;
         justify-content: center;
     }
+}
+@media (max-width:1024px) {
     .members-uch {
-        margin-top: 500px;
+        height: 100%;
     }
 }
-@media (max-width:425px) {
+@media (max-width:425px) { 
     .Dima__img {
-        width: 100%;
+        width: 100px;
     }
 
     .Timur__img {
-        width: 100%;
+        width: 100px;
     }
     
     .Vitalik__img {
-        width: 60%;
+        width: 100px;
     }
 }
 
